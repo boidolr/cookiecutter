@@ -1,0 +1,6 @@
+- id: "{{cookiecutter.project_slug}}"
+  name: hook
+  description: "{{cookiecutter.short_description}}"
+  language: python
+  entry: hook
+  types: [text]

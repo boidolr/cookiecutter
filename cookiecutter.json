@@ -1,0 +1,9 @@
+{
+    "templates": {
+        "precommit-python": {
+            "path": "./precommit",
+            "title": "Precommit Hook",
+            "description": "A cookiecutter template for a python pre-commit hook"
+        }
+    }
+}
