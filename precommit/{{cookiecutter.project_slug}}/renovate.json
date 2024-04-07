@@ -1,7 +1,1 @@
-{
-    "extends": [
-        "github>boidolr/actions",
-        "github>boidolr/actions//presets/actions",
-        "github>boidolr/actions//presets/precommit"
-    ]
-}
+../../templates/renovate.json

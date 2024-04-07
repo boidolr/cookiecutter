@@ -1,1 +1,1 @@
-.github/ @{{cookiecutter.github_username}}
+../../../templates/.github/CODEOWNERS

@@ -1,4 +1,1 @@
-# exclude .gitignore and similar from the generated tarball
-.git*                   export-ignore
-.pre-commit-config.yaml export-ignore
-renovate.json           export-ignore
+../../templates/.gitattributes

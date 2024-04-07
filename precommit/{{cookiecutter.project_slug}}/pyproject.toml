@@ -27,10 +27,10 @@ dev = ["pre-commit", "ruff", "tox", "tox-pyenv"]
 tests = ["pytest", "pytest-clarity", "pytest-ruff", "pytest-mypy"]
 
 [project.scripts]
-hook = "{{cookiecutter.project_slug}}.hook:main"
+hook = "{{cookiecutter.module_name}}.hook:main"
 
 [tool.setuptools]
-packages = ["{{cookiecutter.project_slug}}"]
+packages = ["{{cookiecutter.module_name}}"]
 
 [tool.ruff]
 line-length = 120
@@ -38,24 +38,24 @@ fix = true
 
 [tool.ruff.lint]
 select = [
-    "F",    # Pyflakes
-    "E",    # Pycodestyle
+    "F",      # Pyflakes
+    "E",      # Pycodestyle
     "W",
-    "UP",   # pyupgrade
-    "FURB", # refurb
-    "S",    # flake8-bandit
-    "C4",   # flake8-comprehensions
-    "G",    # flake8-logging-format
-    "ANN",  # flake8-annotations
-    "ARG",  # flake8-unused-arguments
-    "SIM",  # flake8-simplify
-    "PT",   # flake8-pytest-style
-    "RET",  # flake8-return
-    "PTH",  # flake8-use-pathlib
+    "UP",     # pyupgrade
+    "FURB",   # refurb
+    "S",      # flake8-bandit
+    "C4",     # flake8-comprehensions
+    "G",      # flake8-logging-format
+    "ANN",    # flake8-annotations
+    "ARG",    # flake8-unused-arguments
+    "SIM",    # flake8-simplify
+    "PT",     # flake8-pytest-style
+    "RET",    # flake8-return
+    "PTH",    # flake8-use-pathlib
     "TID252", # flake8-tidy-imports (relative-imports)
-    "PERF", # Perflint
-    "FLY",  # flynt
-    "I",    # isort
+    "PERF",   # Perflint
+    "FLY",    # flynt
+    "I",      # isort
     "RUF100", # Unneeded noqa
 ]
 
