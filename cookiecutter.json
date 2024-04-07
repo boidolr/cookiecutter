@@ -4,6 +4,11 @@
             "path": "./precommit",
             "title": "Precommit Hook",
             "description": "A cookiecutter template for a python pre-commit hook"
+        },
+        "script-python": {
+            "path": "./pyscript",
+            "title": "Python script",
+            "description": "A cookiecutter template for a python script with entry points"
         }
     }
 }

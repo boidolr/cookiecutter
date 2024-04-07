@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "{{cookiecutter.last_name}}"
+  given-names: "{{cookiecutter.first_name}}"
+title: "{{cookiecutter.project_slug}}"
+abstract: >-
+  {{cookiecutter.short_description}}
+license: MIT
+license-url: "https://github.com/{{cookiecutter.__github_repo}}/blob/main/LICENSE"
+repository-code: "https://github.com/{{cookiecutter.__github_repo}}"
+url: "https://github.com/{{cookiecutter.__github_repo}}"
